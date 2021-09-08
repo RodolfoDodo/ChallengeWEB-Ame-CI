@@ -6,7 +6,7 @@ Automação de testes com CodeceptJS + WebDriver + BDD
 
 Descriçao do projeto...
 
-Este projeto está sendo executado no Github Acctions na branch pipeline. Assim está concluindo o desafio do CI. 
+Este projeto está sendo executado no Github Acctions na branch master. Assim está concluindo o desafio do CI. 
 
 Este projeto está sendo executado em modo headless (configuração para nãpo abrir o navegado chrome), caso desejar abrir o navegador apague a linha args: ["--headless" ]
 do arquivo codecept.config.js
