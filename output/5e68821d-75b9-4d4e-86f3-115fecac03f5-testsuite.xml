@@ -1,0 +1,253 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631112930107' stop='1631112990531'>
+    <name>Realizando login</name>
+    <title>Realizando login</title>
+    <test-cases>
+        <test-case start='1631112953255' status='passed' stop='1631112967874'>
+            <name>Login no sistema {"email":"farleyrodolfo@gmail.com","senha":"Dodo940808","mensagem":"Rodolfo Farley"} @loginSucesso</name>
+            <title>Login no sistema {"email":"farleyrodolfo@gmail.com","senha":"Dodo940808","mensagem":"Rodolfo Farley"} @loginSucesso</title>
+            <labels>
+                <label name='tag' value='@loginSucesso'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1631112954886' status='passed' stop='1631112962640'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631112962641' status='passed' stop='1631112964944'>
+                    <name>Given que acesso a pagina inicial </name>
+                    <title>Given que acesso a pagina inicial </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1631112962641' status='passed' stop='1631112964944'>
+                            <name>I click ".login"</name>
+                            <title>I click ".login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1631112964944' status='passed' stop='1631112967810'>
+                    <name>And informo os dados de login "farleyrodolfo@gmail.com" "Dodo940808" </name>
+                    <title>And informo os dados de login "farleyrodolfo@gmail.com" "Dodo940808" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1631112964944' status='passed' stop='1631112966235'>
+                            <name>login_page: inserir_email "farleyrodolfo@gmail.com", "Dodo940808"</name>
+                            <title>login_page: inserir_email "farleyrodolfo@gmail.com", "Dodo940808"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1631112964944' status='passed' stop='1631112966151'>
+                                    <name>I fill field "#email", "farleyrodolfo@gmail.com"</name>
+                                    <title>I fill field "#email", "farleyrodolfo@gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1631112966151' status='passed' stop='1631112966235'>
+                                    <name>I fill field "#passwd", "Dodo940808"</name>
+                                    <title>I fill field "#passwd", "Dodo940808"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1631112966235' status='passed' stop='1631112967810'>
+                            <name>login_page: sign </name>
+                            <title>login_page: sign </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1631112966235' status='passed' stop='1631112967810'>
+                                    <name>I click "#SubmitLogin"</name>
+                                    <title>I click "#SubmitLogin"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1631112967810' status='passed' stop='1631112967874'>
+                    <name>When verifico a mensagem retornada "Rodolfo Farley" </name>
+                    <title>When verifico a mensagem retornada "Rodolfo Farley" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1631112967810' status='passed' stop='1631112967874'>
+                            <name>I wait for text "Rodolfo Farley"</name>
+                            <title>I wait for text "Rodolfo Farley"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1631112967897' status='passed' stop='1631112979881'>
+            <name>Login no sistema {"email":"farleyrodolfo@gmail.com","senha":"Dodo@940808","mensagem":"Authentication failed."} @loginSucesso</name>
+            <title>Login no sistema {"email":"farleyrodolfo@gmail.com","senha":"Dodo@940808","mensagem":"Authentication failed."} @loginSucesso</title>
+            <labels>
+                <label name='tag' value='@loginSucesso'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1631112969597' status='passed' stop='1631112975970'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631112975970' status='passed' stop='1631112977337'>
+                    <name>Given que acesso a pagina inicial </name>
+                    <title>Given que acesso a pagina inicial </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1631112975970' status='passed' stop='1631112977337'>
+                            <name>I click ".login"</name>
+                            <title>I click ".login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1631112977337' status='passed' stop='1631112979819'>
+                    <name>And informo os dados de login "farleyrodolfo@gmail.com" "Dodo@940808" </name>
+                    <title>And informo os dados de login "farleyrodolfo@gmail.com" "Dodo@940808" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1631112977337' status='passed' stop='1631112978631'>
+                            <name>login_page: inserir_email "farleyrodolfo@gmail.com", "Dodo@940808"</name>
+                            <title>login_page: inserir_email "farleyrodolfo@gmail.com", "Dodo@940808"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1631112977337' status='passed' stop='1631112978550'>
+                                    <name>I fill field "#email", "farleyrodolfo@gmail.com"</name>
+                                    <title>I fill field "#email", "farleyrodolfo@gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1631112978550' status='passed' stop='1631112978631'>
+                                    <name>I fill field "#passwd", "Dodo@940808"</name>
+                                    <title>I fill field "#passwd", "Dodo@940808"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1631112978631' status='passed' stop='1631112979819'>
+                            <name>login_page: sign </name>
+                            <title>login_page: sign </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1631112978631' status='passed' stop='1631112979819'>
+                                    <name>I click "#SubmitLogin"</name>
+                                    <title>I click "#SubmitLogin"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1631112979819' status='passed' stop='1631112979881'>
+                    <name>When verifico a mensagem retornada "Authentication failed." </name>
+                    <title>When verifico a mensagem retornada "Authentication failed." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1631112979819' status='passed' stop='1631112979881'>
+                            <name>I wait for text "Authentication failed."</name>
+                            <title>I wait for text "Authentication failed."</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1631112979897' status='passed' stop='1631112990515'>
+            <name>Login no sistema {"email":"","senha":"","mensagem":"An email address required."} @loginSucesso</name>
+            <title>Login no sistema {"email":"","senha":"","mensagem":"An email address required."} @loginSucesso</title>
+            <labels>
+                <label name='tag' value='@loginSucesso'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1631112981629' status='passed' stop='1631112987610'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631112987610' status='passed' stop='1631112988935'>
+                    <name>Given que acesso a pagina inicial </name>
+                    <title>Given que acesso a pagina inicial </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1631112987610' status='passed' stop='1631112988935'>
+                            <name>I click ".login"</name>
+                            <title>I click ".login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1631112988935' status='passed' stop='1631112990453'>
+                    <name>And informo os dados de login "" "" </name>
+                    <title>And informo os dados de login "" "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1631112988935' status='passed' stop='1631112989578'>
+                            <name>login_page: inserir_email , </name>
+                            <title>login_page: inserir_email , </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1631112988935' status='passed' stop='1631112989507'>
+                                    <name>I fill field "#email", </name>
+                                    <title>I fill field "#email", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1631112989507' status='passed' stop='1631112989578'>
+                                    <name>I fill field "#passwd", </name>
+                                    <title>I fill field "#passwd", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1631112989578' status='passed' stop='1631112990453'>
+                            <name>login_page: sign </name>
+                            <title>login_page: sign </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1631112989578' status='passed' stop='1631112990453'>
+                                    <name>I click "#SubmitLogin"</name>
+                                    <title>I click "#SubmitLogin"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1631112990453' status='passed' stop='1631112990515'>
+                    <name>When verifico a mensagem retornada "An email address required." </name>
+                    <title>When verifico a mensagem retornada "An email address required." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1631112990453' status='passed' stop='1631112990515'>
+                            <name>I wait for text "An email address required."</name>
+                            <title>I wait for text "An email address required."</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
