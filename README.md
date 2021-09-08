@@ -1,5 +1,6 @@
 # ChallengeWEB-Ame-CI
 
+Este projeto foi desenvolvido via Javascript e nodeJS. E importe que seu ambiente tenha o nodeJS instalado
 
 Automação de testes com CodeceptJS + WebDriver + BDD
 
