@@ -21,12 +21,15 @@ npx codeceptjs run --steps
 Rodas os testes gerando relatorio Allure
 
 E importante que tenha o allure instalado em seu ambiente caso não tenha execute os seguinte comando
+
 npm install -g allure-commandline --save-dev
 
 Execute o camando para gerar o relatorio
+
 npx codeceptjs run --plugins allure
 
 Exibir o relatorio em seu ambiente 
+
 allure serve output
 
 Autor: Rodolfo Farley
